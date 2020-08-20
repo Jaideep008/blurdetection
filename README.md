@@ -13,13 +13,13 @@ The repository has a script, `process.py` which lets us run on single images or 
 
 ```bash
 # run on a single image
-python process.py -i input_image.png
+python jai.py -i input_image.png
 
 # run on a directory of images
-python process.py -i input_directory/ 
+python jai.py -i input_directory/ 
 
 # or both! 
-python process.py -i input_directory/ other_directory/ input_image.png
+python jai.py -i input_directory/ other_directory/ input_image.png
 ```
 
 . In addition to logging whether an image is blurry or not, we can also,
