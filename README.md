@@ -31,8 +31,9 @@ python jai.py -i input_directory/ -s results.json
 # display blur-map image
 python jai.py -i input_directory/ -d
 ```
-In addition to it, we can even segregate  the blur image in another folder by using a parameter '-save' and give the path for the the blur images to  get saved.
-syntax 'python jai.py -i [image_path] -save [folder_path]'
+In addition to it, we can even segregate  the blur image in another folder by using a parameter `-save` and give the path for the the blur images to  get saved.
+syntax:
+`python jai.py -i [image_path] -save [folder_path]`
 
 The saved json file has information on how blurry an image is, the higher the value, the less blurry the image.
 
