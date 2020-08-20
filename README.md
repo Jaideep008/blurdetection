@@ -26,10 +26,10 @@ python jai.py -i input_directory/ other_directory/ input_image.png
 
 ```bash
 # save this information to json
-python process.py -i input_directory/ -s results.json
+python jai.py -i input_directory/ -s results.json
 
 # display blur-map image
-python process.py -i input_directory/ -d
+python jai.py -i input_directory/ -d
 ```
 The saved json file has information on how blurry an image is, the higher the value, the less blurry the image.
 
